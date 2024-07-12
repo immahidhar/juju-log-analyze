@@ -1,0 +1,157 @@
+
+Charms analyzed:
+['glance', 'glance-simplestreams-sync', 'octavia', 'nova-compute', 'placement', 'mysql-innodb-cluster', 'ovn-central', 'nova-cloud-controller', 'vault', 'rabbitmq-server', 'octavia-diskimage-retrofit', 'keystone', 'neutron-api', 'placement-mysql-router', 'ovn-chassis', 'glance-mysql-router', 'vault-mysql-router', 'keystone-mysql-router', 'neutron-api-plugin-ovn', 'neutron-mysql-router', 'nova-mysql-router']
+All other log statements are ignored!
+
+The charms that produced WARNINGs:
+{'neutron-api', 'glance-simplestreams-sync', 'mysql-innodb-cluster', 'nova-compute', 'ovn-central', 'rabbitmq-server', 'keystone', 'placement', 'glance', 'nova-cloud-controller'}
+
+The charms that produced ERRORs:
+{'vault-mysql-router', 'vault', 'placement-mysql-router', 'glance-mysql-router', 'octavia'}
+
+The number of each severity of message:
+	INFO : 378
+	ERROR : 29
+	WARNING : 65
+	DEBUG : 1198
+
+The number of duplicate messages per severity:
+	INFO : 282
+	ERROR : 19
+	WARNING : 9
+	DEBUG : 406
+
+The proportions of each type of log message for each charm:
+glance:
+	INFO : 21.428571428571427 %
+	ERROR : 0.0 %
+	WARNING : 3.571428571428571 %
+	DEBUG : 75.0 %
+glance-simplestreams-sync:
+	INFO : 20.33898305084746 %
+	ERROR : 0.0 %
+	WARNING : 11.864406779661017 %
+	DEBUG : 67.79661016949152 %
+octavia:
+	INFO : 22.699386503067483 %
+	ERROR : 6.134969325153374 %
+	WARNING : 0.0 %
+	DEBUG : 71.16564417177914 %
+nova-compute:
+	INFO : 22.52252252252252 %
+	ERROR : 0.0 %
+	WARNING : 7.207207207207207 %
+	DEBUG : 70.27027027027027 %
+placement:
+	INFO : 22.22222222222222 %
+	ERROR : 0.0 %
+	WARNING : 3.7037037037037033 %
+	DEBUG : 74.07407407407408 %
+mysql-innodb-cluster:
+	INFO : 23.89937106918239 %
+	ERROR : 0.0 %
+	WARNING : 1.257861635220126 %
+	DEBUG : 74.84276729559748 %
+ovn-central:
+	INFO : 23.417721518987342 %
+	ERROR : 0.0 %
+	WARNING : 2.5316455696202533 %
+	DEBUG : 74.0506329113924 %
+nova-cloud-controller:
+	INFO : 21.818181818181817 %
+	ERROR : 0.0 %
+	WARNING : 10.909090909090908 %
+	DEBUG : 67.27272727272727 %
+vault:
+	INFO : 21.428571428571427 %
+	ERROR : 12.5 %
+	WARNING : 0.0 %
+	DEBUG : 66.07142857142857 %
+rabbitmq-server:
+	INFO : 19.672131147540984 %
+	ERROR : 0.0 %
+	WARNING : 16.39344262295082 %
+	DEBUG : 63.934426229508205 %
+octavia-diskimage-retrofit:
+	INFO : 24.0 %
+	ERROR : 0.0 %
+	WARNING : 0.0 %
+	DEBUG : 76.0 %
+keystone:
+	INFO : 22.641509433962266 %
+	ERROR : 0.0 %
+	WARNING : 1.8867924528301887 %
+	DEBUG : 75.47169811320755 %
+neutron-api:
+	INFO : 18.461538461538463 %
+	ERROR : 0.0 %
+	WARNING : 23.076923076923077 %
+	DEBUG : 58.46153846153847 %
+placement-mysql-router:
+	INFO : 20.689655172413794 %
+	ERROR : 13.793103448275861 %
+	WARNING : 0.0 %
+	DEBUG : 65.51724137931035 %
+ovn-chassis:
+	INFO : 24.242424242424242 %
+	ERROR : 0.0 %
+	WARNING : 0.0 %
+	DEBUG : 75.75757575757575 %
+glance-mysql-router:
+	INFO : 24.0 %
+	ERROR : 2.0 %
+	WARNING : 0.0 %
+	DEBUG : 74.0 %
+vault-mysql-router:
+	INFO : 22.641509433962266 %
+	ERROR : 5.660377358490567 %
+	WARNING : 0.0 %
+	DEBUG : 71.69811320754717 %
+keystone-mysql-router:
+	INFO : 23.076923076923077 %
+	ERROR : 0.0 %
+	WARNING : 0.0 %
+	DEBUG : 76.92307692307693 %
+neutron-api-plugin-ovn:
+	INFO : 26.08695652173913 %
+	ERROR : 0.0 %
+	WARNING : 0.0 %
+	DEBUG : 73.91304347826086 %
+neutron-mysql-router:
+	INFO : 23.52941176470588 %
+	ERROR : 0.0 %
+	WARNING : 0.0 %
+	DEBUG : 76.47058823529412 %
+nova-mysql-router:
+	INFO : 24.0 %
+	ERROR : 0.0 %
+	WARNING : 0.0 %
+	DEBUG : 76.0 %
+
+The total number of log messages per charm:
+	glance : 56
+	glance-simplestreams-sync : 59
+	octavia : 163
+	nova-compute : 222
+	placement : 54
+	mysql-innodb-cluster : 159
+	ovn-central : 158
+	nova-cloud-controller : 55
+	vault : 56
+	rabbitmq-server : 61
+	octavia-diskimage-retrofit : 50
+	keystone : 53
+	neutron-api : 65
+	placement-mysql-router : 58
+	ovn-chassis : 99
+	glance-mysql-router : 50
+	vault-mysql-router : 53
+	keystone-mysql-router : 52
+	neutron-api-plugin-ovn : 46
+	neutron-mysql-router : 51
+	nova-mysql-router : 50
+
+The total number of log messages analyzed : 1670
+
+The total number of lines in log file : 3295
+

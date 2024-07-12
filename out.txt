@@ -1,0 +1,37 @@
+
+Charms analyzed:
+['nova-compute']
+All other log statements are ignored!
+
+The charms that produced WARNINGs:
+{'nova-compute'}
+
+The charms that produced ERRORs:
+None
+
+The number of each severity of message:
+	DEBUG : 156
+	ERROR : 0
+	WARNING : 16
+	INFO : 50
+
+The number of duplicate messages per severity:
+	DEBUG : 39
+	ERROR : 0
+	WARNING : 0
+	INFO : 30
+
+The proportions of each type of log message for each charm:
+nova-compute:
+	DEBUG : 70.27027027027027 %
+	ERROR : 0.0 %
+	WARNING : 7.207207207207207 %
+	INFO : 22.52252252252252 %
+
+The total number of log messages per charm:
+	nova-compute : 222
+
+The total number of log messages analyzed : 222
+
+The total number of lines in log file : 3295
+
